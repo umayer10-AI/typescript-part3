@@ -1,1 +1,1 @@
-{"version":3,"file":"promise.js","sourceRoot":"","sources":["../promise.ts"],"names":[],"mappings":""}
+{"version":3,"file":"promise.js","sourceRoot":"","sources":["../promise.ts"],"names":[],"mappings":";;AAAA,MAAM,CAAC,GAAG,GAAG,EAAE;IACX,UAAU,CAAC,GAAG,EAAE;QACZ,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA;IAExB,CAAC,EAAE,IAAI,CAAC,CAAC;AACb,CAAC,CAAA;AACD,MAAM,CAAC,GAAG,GAAG,EAAE;IACX,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAA;AACzB,CAAC,CAAA;AACD,CAAC,EAAE,CAAA;AACH,CAAC,EAAE,CAAA"}
