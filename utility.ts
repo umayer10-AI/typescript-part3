@@ -5,7 +5,7 @@ interface A {
     branch: number
 }
 
-let a: A = {
+let a: Partial<A> = {
     name: "Umayer",
     location: "Fatullah",
     students: 200,
