@@ -1,9 +1,13 @@
 "use strict";
+// interface A {
+//     name: string,
+//     location: string,
+//     students: number,
+//     branch: number
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
-const a = {
-    name: 'Umayer',
-    location: "Fatullah",
-    // students: 22
-};
-console.log(a);
+// let a: Exclude<A, "pending"> = "success"
+// a = "error"
+let a = "success";
+a = "error";
 //# sourceMappingURL=utility-2.js.map
