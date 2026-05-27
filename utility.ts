@@ -5,8 +5,14 @@ interface A {
     branch: number
 }
 
-let a: Partial<A> = {
-    name: "Umayer",
-    location: "Fatullah",
-    students: 200,
+// let a: Partial<A> = {
+//     name: "Umayer",
+//     location: "Fatullah",
+//     students: 200,
+// }
+
+const a = (v: Partial<A>) => {
+
 }
+
+a({name: "Umayer"})
