@@ -12,10 +12,17 @@
 // }
 // console.log(a)
 
-type A = "loading" | "error" | "pending" | "success"
+
+
+// type A = "loading" | "error" | "pending" | "success"
 
 // let a: Exclude<A, "pending"> = "success"
 // a = "error"
 
-let a: Extract<A, 'success' | 'error'> = "success"
-a = "error"
+// let a: Extract<A, 'success' | 'error'> = "success"
+// a = "error"
+
+
+type A = string | number | undefined | null | string[];
+
+const a: NonNullable<A> = "umayer"

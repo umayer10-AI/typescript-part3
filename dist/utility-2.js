@@ -6,8 +6,5 @@
 //     branch: number
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
-// let a: Exclude<A, "pending"> = "success"
-// a = "error"
-let a = "success";
-a = "error";
+const a = "umayer";
 //# sourceMappingURL=utility-2.js.map
