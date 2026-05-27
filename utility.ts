@@ -2,7 +2,7 @@ interface A {
     name: string,
     location: string,
     students: number,
-    branch: number
+    branch?: number
 }
 
 // let a: Partial<A> = {
@@ -11,8 +11,14 @@ interface A {
 //     students: 200,
 // }
 
-const a = (v: Partial<A>) => {
+// const a = (v: Partial<A>) => {
 
+// }
+// a({name: "Umayer"})
+
+
+const a = (v: Required<A>) => {
+    return v
 }
 
-a({name: "Umayer"})
+console.log(a({name: "Umayer",location: "Fatullah", students: 22, branch: 21}))
