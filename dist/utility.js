@@ -8,8 +8,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // const a = (v: Partial<A>) => {
 // }
 // a({name: "Umayer"})
-const a = (v) => {
-    return v;
+// const a = (v: Required<A>) => {
+//     return v
+// }
+// console.log(a({name: "Umayer",location: "Fatullah", students: 22, branch: 21}))
+const a = {
+    name: "Umayer",
+    location: "Fatullah",
+    students: 20,
+    branch: 3
 };
-console.log(a({ name: "Umayer", location: "Fatullah", students: 22, branch: 21 }));
+// a.name = "heloo"
 //# sourceMappingURL=utility.js.map
