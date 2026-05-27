@@ -12,11 +12,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     return v
 // }
 // console.log(a({name: "Umayer",location: "Fatullah", students: 22, branch: 21}))
+// const a: Readonly<A> = {
+//     name: "Umayer",
+//     location: "Fatullah",
+//     students: 20,
+//     branch: 3
+// }
+// a.name = "heloo"
 const a = {
     name: "Umayer",
     location: "Fatullah",
-    students: 20,
-    branch: 3
 };
-// a.name = "heloo"
 //# sourceMappingURL=utility.js.map

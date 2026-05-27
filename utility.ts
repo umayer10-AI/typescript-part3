@@ -24,10 +24,16 @@ interface A {
 // console.log(a({name: "Umayer",location: "Fatullah", students: 22, branch: 21}))
 
 
-const a: Readonly<A> = {
+// const a: Readonly<A> = {
+//     name: "Umayer",
+//     location: "Fatullah",
+//     students: 20,
+//     branch: 3
+// }
+// a.name = "heloo"
+
+
+const a: Pick<A, 'name'| 'location'> = {
     name: "Umayer",
     location: "Fatullah",
-    students: 20,
-    branch: 3
 }
-// a.name = "heloo"
