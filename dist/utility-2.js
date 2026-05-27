@@ -7,4 +7,9 @@
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
 let a = "Admin";
+let b = {
+    Admin: "Umayer",
+    user: "Ahmad",
+    guest: "Peter",
+};
 //# sourceMappingURL=utility-2.js.map

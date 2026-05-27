@@ -29,4 +29,9 @@
 
 
 type A = 'Admin' | 'user' | 'guest'
-let a:A = "Admin"
+let a: A = "Admin"
+let b: Record<A,string> = {
+    Admin : "Umayer",
+    user: "Ahmad",
+    guest: "Peter",
+}
