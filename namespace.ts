@@ -1,4 +1,4 @@
-namespace admin1 {
+export namespace admin1 {
     export class A {
         login() {
             console.log("User Login Function")
@@ -9,16 +9,17 @@ namespace admin1 {
     }
 }
 
-namespace admin2 {
-    class A {
+export namespace admin2 {
+    export class A {
         login() {
             console.log("User Login Function")
         }
     }
-    const a = () => {
+    export const a = () => {
         console.log("List of Users")
     }
 }
 
-const b = new admin1.A()
-b.login()
+// const b = new admin1.A()
+// b.login()
+// admin1.a()
