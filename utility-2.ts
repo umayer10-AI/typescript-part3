@@ -23,6 +23,10 @@
 // a = "error"
 
 
-type A = string | number | undefined | null | string[];
+// type A = string | number | undefined | null | string[];
 
-const a: NonNullable<A> = "umayer"
+// const a: NonNullable<A> = "umayer"
+
+
+type A = 'Admin' | 'user' | 'guest'
+let a:A = "Admin"
