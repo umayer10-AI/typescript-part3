@@ -11,5 +11,6 @@ let a = {
     age: 21,
     semester: 3,
 };
+// a.la = "hello"
 console.log(a);
 //# sourceMappingURL=app.js.map

@@ -16,7 +16,7 @@ type User = {
     name: string,
     mobile: number,
     id: number,
-    [key: string]: number | string
+    readonly [key: string]: number | string
 }
 
 let a: User = {
@@ -27,4 +27,5 @@ let a: User = {
     age: 21,
     semester: 3,
 }
+// a.la = "hello"
 console.log(a)
